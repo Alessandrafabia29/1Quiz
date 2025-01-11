@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quis para marombeiras</title>
+</head>
+<body>
+        <header>
+            <h1>Quiz interativo para marombeiras</h1>
+            <p>Teste seus conhecimentos em Musculação e veja qual pontuação você consegue fazer!</p>
+        </header>
+        <main>
+            <!--Introdução-->
+            <section>
+
+                <h2>Sobre esse Quiz</h2>
+                <p><strong>Este Quiz</strong> foi desenvolvido para testar seus conhecimentos na <em> àrea da Musculação</em>,testar suas habilidades na   <abbr title="Academia">GYM</abbr> e na <b>construção </b>de massa muscular,de um corpo <i>visivelmente </i> mais bonito e saudável.</p>
+                <p>Você encontrará diferentes tipos de perguntas,incluindo múltipla escolha,texto e perguntas de data. <br> Desafie-se com esse Quiz.</p>
+                
+            </section>
+            <!--Pergunta 1: Multipla escolha-->
+            <section>
+                <h2>Pergunta 1:Qual exercício é mais completo para ganho de massa muscular para membros inferiores?</h2>
+                <form >
+                   <input type="radio" value="Agachamento" id="p1a " name="pergunta1"> 
+                   <label for="p1a">Agachamento</label><br>
+                   <input type="radio" value="Extensora" id="p1b" name="pergunta1">
+                   <label for="p1b">Extensora</label><br>
+                   <input type="radio" value="Stiff " id="p1c " name="pergunta1">
+                   <label for="p1c">Stiff</label><br>
+                   <input type="radio" value="Mesa flexora" id="p1d" name="pergunta1">
+                   <label for="p1d">Mesa flexora</label><br>
+                </form>
+            </section>
+            <!--Pergunta 2: Responda a pergunta abaixo.-->
+            <section>
+                <h2> Pergunta2:No treino de construção de massa muscular de membros inferiores,o músculo alvo que se trabalha na cadeira extensora é o __________</h2>
+                <form>
+                    <input type=" text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+                </form>
+            </section>
+            <!--Pergunta 3:senha-->
+            <section>
+                <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
+                <form>
+                    <input type="password" id="p3" name="pergunta3" placeholder="digite uma senha">
+                </form>
+            </section>
+            <!--Pergunta 4: data-->
+            <section>
+                <h2>Em qual ano Você iniciou na Musculação?</h2>
+                <form>
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+            </section>
+            <!--Pergunta 5 :Seleção Múltipla-->
+            <section>
+                <h2>Pergunta 5: Quais desses exercícios são considerados especificos para treinar o músculo posterior de coxa?</h2>
+                <form>
+                    <input type="checkbox" id="p5a" name="pergunta5" value="Stiff">
+                    <label for="p5a">Stiff</label>
+                    <input type="checkbox" id="p5b" name="pergunta5" value="Mesa flexora">
+                    <label for="p5b">Mesa flexora</label>
+                    <input type="checkbox" name="pergunta5" id="p5c" value="legpress">
+                    <label for="p5c">legpress</label>
+                    <input type="checkbox" id="p5d" name="pergunta5" value="cadeira adutora">
+                    <label for="p5d">cadeira adutora</label>
+
+                </form>
+            </section>
+            <!--Pergunta 6: upload de arquivo-->
+            <section>
+                <h2>Pergunta 6: Faça um upload de um arquivo contendo codigo HTML</h2>
+                <form>
+                    <input type="file" name="pergunta6" id="p6">
+                </form>
+            </section>
+            <!-- Pergunta7: menu suspenso-->
+            <section>
+                <h2>Pergunta 7: Selecione o exercicío que trabalha  o músculo quadriceps:</h2>
+                <form>
+                    <select name="Pergunta7" id="p7">
+                         <option value=" cadeira extensora"> Cadeira Extensora</option>
+                         <option value="Agachamento">Agachamento</option>
+                         <option value="legpress">Legpress</option>
+                    </select>
+                </form>
+            </section>
+            <!--Pergunta 8:-->
+            <section>
+
+                <h2> Pergunta8 : Qual nome da Academia que aparece na imagem abaixo?</h2>
+
+                    <figure>  
+                            <img height="150px " width="150 px" src="20210515_200243.jpg"  alt="Logotipo de um centro de treinamento. "><br>
+                             <figcaption>Figura1:Logotipo de um centro esportivo.
+                             </figcaption>
+                    </figure>
+                    <input type=" text" id="p8" name="pergunta8" placeholder="Digite sua resposta..."
+
+            </section>
+            <!--Tabela de Pontuação-->
+            <section>
+                <h2>Tabela de Pontuação </h2>
+                <table border="1">
+                 <thead>
+                    <tr>
+                        <th> Pontuação</th>
+                        <th> Avaliação</th>
+                    </tr>
+                 </thead>
+                 <tbody>
+                  <tr>
+                    <td> 0-2</td>
+                    <td>Não desista ! Cada tentativa é uma oportunidade de você aprender.</td>
+                  </tr> 
+                  <tr>
+                    <td>3-4</td>
+                    <td> Você ainda precisa melhorar. Que tal estudar mais sobre Musculação?</td>
+                  </tr> 
+                  <tr>
+                    <td>5-7</td>
+                    <td>Bom! Seu conhecimento em Musculação está satisfatório.</td>
+                  <tr>
+                    <td>8</td>
+                    <td>Perfeito! Você está muito bem informado sobre Musculação.</td>
+                  </tr>
+                  </tr>
+                 </tbody>
+                 <tfoot>
+                    <tr>
+                        <td colspan="2">Boa sorte na próxima!
+                            Estude mais para melhorar.
+                         </td>
+                    </tr>
+                 </tfoot>
+                </table>
+            </section>
+            <!--Lista de respostas-->
+            <section>
+                <h2> Verifique suas respostas.</h2>
+                <details>
+                   <summary> Clique aqui para ver as respostas.</summary>
+                    <ol>
+                         <li> Agachamento </li>
+                         <li> Quadriceps</li>
+                         <li> D#ih%56knb </li>
+                         <li> 2004 </li>
+                         <li>mesa flexora </li>
+                         <li> O arquivo tem que ter extensão .html </li>
+                         <li> Cadeira Extensora  </li>
+                         <li> 48 pro </li>
+                    </ol>
+                </details>
+            </section>
+            <!--Formulário de Feedback-->
+            <section>
+                <h2>Nos dê seu Feedback  </h2>
+                <form> 
+                  <fieldset>
+                    <legend> Informações de contato</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email"> Email: </label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="comentarios">Comentários:</label><br>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Digite aqui seus comentários"></textarea>
+
+                     <button onclick="alert('FEEDBACK ENVIADO')"> Envie o Feedback </button>
+                  </fieldset>
+
+                </form>
+            </section>
+
+
+
+        </main>
+        <footer>
+            <p> &copy;Quis para Marombeiras. Todos os direitos reservados.</p>
+            <p>Para conhecer outros quizzes <a href="http://google.com" target="_blank" >Clique Aqui</a></p>k
+        </footer>
+    
+</body>
+</html>
+
+
+
+
+
